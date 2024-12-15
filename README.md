@@ -11,4 +11,5 @@ Corso algoritmi con l'uso del linguaggio Java.
   - normalizzazione delle stringhe
   - parsing di ricerca di base in una stringa
   - analisi personalizzata agli algoritmi di ricerca
+  - uso di funzioni built-in java per algoritmi sulle stringhe
   - 
