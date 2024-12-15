@@ -23,6 +23,17 @@ public class Algorithms {
         return reversed.toString();
     }
 
+    // StringBuilder ha una funzione built-in di reverse di stringa
+    public static String reverse2(String s) {
+        if (Objects.isNull(s) || s.isEmpty()) {
+            return s;
+        }
+
+        StringBuilder sb = new StringBuilder(s);
+
+        return sb.reverse().toString();
+    }
+
 
     public static void main(String[] args) {
         System.out.println(reverse(null));
@@ -31,5 +42,13 @@ public class Algorithms {
         System.out.println(reverse("tacos"));
         System.out.println(reverse("Hi!"));
         System.out.println(reverse("RobertoGianotto"));
+
+        System.out.println("==================");
+        System.out.println(reverse2(null));
+        System.out.println(reverse2(""));
+        System.out.println(reverse2("hello"));
+        System.out.println(reverse2("tacos"));
+        System.out.println(reverse2("Hi!"));
+        System.out.println(reverse2("RobertoGianotto"));
     }
 }
