@@ -9,5 +9,6 @@ Corso algoritmi con l'uso del linguaggio Java.
   - validazione di stringhe tutte in maiuscolo o in minuscolo
   - validazione se una stringa contiene caratteri maiuscoli/minuscoli
   - normalizzazione delle stringhe
-  - parsing di ricaerca di base in una stringa
+  - parsing di ricerca di base in una stringa
+  - analisi personalizzata agli algoritmi di ricerca
   - 
