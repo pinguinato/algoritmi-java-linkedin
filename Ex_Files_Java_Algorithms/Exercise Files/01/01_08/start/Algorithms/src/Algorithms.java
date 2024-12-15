@@ -1,7 +1,22 @@
 public class Algorithms {
 
     public static String reverseEachWord(String s) {
-        return s;
+
+        if (s == null || s.isEmpty()) {
+            return "";
+        }
+
+        StringBuilder result = new StringBuilder();
+        String[] words = s.split(" ");
+
+        for (String word : words) {
+            result.append(reverse(word));
+            result.append(" ");
+        }
+
+        result.trimToSize();
+
+        return result.toString();
     }
 
     public static String reverse(String s) {
@@ -17,3 +32,5 @@ public class Algorithms {
         System.out.println(reverseEachWord("what can I do today"));
     }
 }
+
+
