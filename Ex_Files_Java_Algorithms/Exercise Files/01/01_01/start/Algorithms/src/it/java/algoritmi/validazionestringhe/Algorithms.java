@@ -4,8 +4,8 @@ public class Algorithms {
 
     /**
      * Questo algoritmo convalida delle stringhe
-     * @param s
-     * @return
+     * @param s una stringa in input
+     * @return true|false
      */
 
     public static boolean isUppercase(String s) {
